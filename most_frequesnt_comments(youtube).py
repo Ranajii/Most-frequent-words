@@ -51,9 +51,4 @@ for k in l:
         SW.append(k)
 from nltk.probability import FreqDist
 fdist = FreqDist(SW)
-fdist.plot(5,cumulative=True) #this will plot the frquency plot for 5 most occuring words in the URL
-      
-    
-
-
-
+fdist.plot(5,cumulative=True) #this will plot the frquency plot for 5 most occuring words in commnets
